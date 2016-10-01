@@ -1,0 +1,6 @@
+# Ignore everything
+*
+.metadata/
+#but Java source code
+!.gitignore
+!*.java
