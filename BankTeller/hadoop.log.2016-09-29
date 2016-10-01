@@ -1,0 +1,150 @@
+2016-09-29 21:40:25,677 WARN org.apache.hadoop.conf.Configuration: session.id is deprecated. Instead, use dfs.metrics.session-id
+2016-09-29 21:40:25,678 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2016-09-29 21:40:25,751 WARN org.apache.hadoop.mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2016-09-29 21:40:25,754 WARN org.apache.hadoop.mapred.JobClient: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-09-29 21:40:25,761 INFO org.apache.hadoop.mapred.JobClient: Cleaning up the staging area file:/tmp/hadoop-training/mapred/staging/training1104255287/.staging/job_local1104255287_0001
+2016-09-29 21:40:25,761 ERROR org.apache.hadoop.security.UserGroupInformation: PriviledgedActionException as:training (auth:SIMPLE) cause:org.apache.hadoop.mapreduce.lib.input.InvalidInputException: Input path does not exist: file:/input/sample.txt
+2016-09-29 21:42:59,244 WARN org.apache.hadoop.conf.Configuration: session.id is deprecated. Instead, use dfs.metrics.session-id
+2016-09-29 21:42:59,245 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2016-09-29 21:42:59,320 WARN org.apache.hadoop.mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2016-09-29 21:42:59,324 WARN org.apache.hadoop.mapred.JobClient: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-09-29 21:42:59,331 INFO org.apache.hadoop.mapred.JobClient: Cleaning up the staging area file:/tmp/hadoop-training/mapred/staging/training1752034131/.staging/job_local1752034131_0001
+2016-09-29 21:42:59,332 ERROR org.apache.hadoop.security.UserGroupInformation: PriviledgedActionException as:training (auth:SIMPLE) cause:org.apache.hadoop.mapreduce.lib.input.InvalidInputException: Input path does not exist: file:/input/sample.txt
+2016-09-29 21:47:02,076 WARN org.apache.hadoop.conf.Configuration: session.id is deprecated. Instead, use dfs.metrics.session-id
+2016-09-29 21:47:02,078 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2016-09-29 21:47:02,113 WARN org.apache.hadoop.mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2016-09-29 21:47:02,117 WARN org.apache.hadoop.mapred.JobClient: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-09-29 21:47:02,124 INFO org.apache.hadoop.mapred.JobClient: Cleaning up the staging area file:/tmp/hadoop-training/mapred/staging/training729240980/.staging/job_local729240980_0001
+2016-09-29 21:47:02,124 ERROR org.apache.hadoop.security.UserGroupInformation: PriviledgedActionException as:training (auth:SIMPLE) cause:org.apache.hadoop.mapreduce.lib.input.InvalidInputException: Input path does not exist: file:/home/training/workspace/BankTeller/sample.txt
+2016-09-29 21:47:50,160 WARN org.apache.hadoop.conf.Configuration: session.id is deprecated. Instead, use dfs.metrics.session-id
+2016-09-29 21:47:50,162 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2016-09-29 21:47:50,194 WARN org.apache.hadoop.mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2016-09-29 21:47:50,198 WARN org.apache.hadoop.mapred.JobClient: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-09-29 21:47:50,206 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat: Total input paths to process : 1
+2016-09-29 21:47:50,414 INFO org.apache.hadoop.mapred.LocalJobRunner: OutputCommitter set in config null
+2016-09-29 21:47:50,415 INFO org.apache.hadoop.mapred.JobClient: Running job: job_local1074465622_0001
+2016-09-29 21:47:50,418 INFO org.apache.hadoop.mapred.LocalJobRunner: OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2016-09-29 21:47:50,462 INFO org.apache.hadoop.mapred.LocalJobRunner: Waiting for map tasks
+2016-09-29 21:47:50,462 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local1074465622_0001_m_000000_0
+2016-09-29 21:47:50,482 WARN mapreduce.Counters: Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+2016-09-29 21:47:50,553 INFO org.apache.hadoop.util.ProcessTree: setsid exited with exit code 0
+2016-09-29 21:47:50,605 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@3caa4b
+2016-09-29 21:47:50,608 INFO org.apache.hadoop.mapred.MapTask: Processing split: file:/home/training/workspace/BankTeller/input/sample.txt:0+1909
+2016-09-29 21:47:50,619 INFO org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2016-09-29 21:47:50,621 INFO org.apache.hadoop.mapred.MapTask: io.sort.mb = 100
+2016-09-29 21:47:51,147 INFO org.apache.hadoop.mapred.MapTask: data buffer = 79691776/99614720
+2016-09-29 21:47:51,148 INFO org.apache.hadoop.mapred.MapTask: record buffer = 262144/327680
+2016-09-29 21:47:51,155 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2016-09-29 21:47:51,155 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2016-09-29 21:47:51,165 INFO org.apache.hadoop.mapred.MapTask: Finished spill 0
+2016-09-29 21:47:51,167 INFO org.apache.hadoop.mapred.Task: Task:attempt_local1074465622_0001_m_000000_0 is done. And is in the process of commiting
+2016-09-29 21:47:51,176 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2016-09-29 21:47:51,176 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local1074465622_0001_m_000000_0' done.
+2016-09-29 21:47:51,176 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local1074465622_0001_m_000000_0
+2016-09-29 21:47:51,177 INFO org.apache.hadoop.mapred.LocalJobRunner: Map task executor complete.
+2016-09-29 21:47:51,179 WARN mapreduce.Counters: Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+2016-09-29 21:47:51,183 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@4a6397eb
+2016-09-29 21:47:51,183 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2016-09-29 21:47:51,186 INFO org.apache.hadoop.mapred.Merger: Merging 1 sorted segments
+2016-09-29 21:47:51,192 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 200 bytes
+2016-09-29 21:47:51,192 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2016-09-29 21:47:51,201 INFO org.apache.hadoop.mapred.Task: Task:attempt_local1074465622_0001_r_000000_0 is done. And is in the process of commiting
+2016-09-29 21:47:51,202 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2016-09-29 21:47:51,202 INFO org.apache.hadoop.mapred.Task: Task attempt_local1074465622_0001_r_000000_0 is allowed to commit now
+2016-09-29 21:47:51,203 INFO org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_local1074465622_0001_r_000000_0' to output
+2016-09-29 21:47:51,204 INFO org.apache.hadoop.mapred.LocalJobRunner: reduce > reduce
+2016-09-29 21:47:51,204 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local1074465622_0001_r_000000_0' done.
+2016-09-29 21:47:51,418 INFO org.apache.hadoop.mapred.JobClient:  map 100% reduce 100%
+2016-09-29 21:47:51,419 INFO org.apache.hadoop.mapred.JobClient: Job complete: job_local1074465622_0001
+2016-09-29 21:47:51,422 INFO org.apache.hadoop.mapred.JobClient: Counters: 20
+2016-09-29 21:47:51,422 INFO org.apache.hadoop.mapred.JobClient:   File System Counters
+2016-09-29 21:47:51,422 INFO org.apache.hadoop.mapred.JobClient:     FILE: Number of bytes read=4378
+2016-09-29 21:47:51,422 INFO org.apache.hadoop.mapred.JobClient:     FILE: Number of bytes written=177206
+2016-09-29 21:47:51,423 INFO org.apache.hadoop.mapred.JobClient:     FILE: Number of read operations=0
+2016-09-29 21:47:51,423 INFO org.apache.hadoop.mapred.JobClient:     FILE: Number of large read operations=0
+2016-09-29 21:47:51,423 INFO org.apache.hadoop.mapred.JobClient:     FILE: Number of write operations=0
+2016-09-29 21:47:51,423 INFO org.apache.hadoop.mapred.JobClient:   Map-Reduce Framework
+2016-09-29 21:47:51,423 INFO org.apache.hadoop.mapred.JobClient:     Map input records=18
+2016-09-29 21:47:51,423 INFO org.apache.hadoop.mapred.JobClient:     Map output records=18
+2016-09-29 21:47:51,423 INFO org.apache.hadoop.mapred.JobClient:     Map output bytes=162
+2016-09-29 21:47:51,423 INFO org.apache.hadoop.mapred.JobClient:     Input split bytes=122
+2016-09-29 21:47:51,423 INFO org.apache.hadoop.mapred.JobClient:     Combine input records=0
+2016-09-29 21:47:51,423 INFO org.apache.hadoop.mapred.JobClient:     Combine output records=0
+2016-09-29 21:47:51,424 INFO org.apache.hadoop.mapred.JobClient:     Reduce input groups=4
+2016-09-29 21:47:51,424 INFO org.apache.hadoop.mapred.JobClient:     Reduce shuffle bytes=0
+2016-09-29 21:47:51,424 INFO org.apache.hadoop.mapred.JobClient:     Reduce input records=18
+2016-09-29 21:47:51,424 INFO org.apache.hadoop.mapred.JobClient:     Reduce output records=4
+2016-09-29 21:47:51,424 INFO org.apache.hadoop.mapred.JobClient:     Spilled Records=36
+2016-09-29 21:47:51,424 INFO org.apache.hadoop.mapred.JobClient:     CPU time spent (ms)=0
+2016-09-29 21:47:51,424 INFO org.apache.hadoop.mapred.JobClient:     Physical memory (bytes) snapshot=0
+2016-09-29 21:47:51,424 INFO org.apache.hadoop.mapred.JobClient:     Virtual memory (bytes) snapshot=0
+2016-09-29 21:47:51,424 INFO org.apache.hadoop.mapred.JobClient:     Total committed heap usage (bytes)=310509568
+2016-09-29 22:19:05,155 WARN org.apache.hadoop.conf.Configuration: session.id is deprecated. Instead, use dfs.metrics.session-id
+2016-09-29 22:19:05,157 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2016-09-29 22:19:05,200 WARN org.apache.hadoop.mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2016-09-29 22:19:05,209 WARN org.apache.hadoop.mapred.JobClient: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-09-29 22:19:05,218 INFO org.apache.hadoop.mapred.JobClient: Cleaning up the staging area file:/tmp/hadoop-training/mapred/staging/training1928536592/.staging/job_local1928536592_0001
+2016-09-29 22:19:05,221 ERROR org.apache.hadoop.security.UserGroupInformation: PriviledgedActionException as:training (auth:SIMPLE) cause:org.apache.hadoop.mapred.FileAlreadyExistsException: Output directory output already exists
+2016-09-29 22:19:28,790 WARN org.apache.hadoop.conf.Configuration: session.id is deprecated. Instead, use dfs.metrics.session-id
+2016-09-29 22:19:28,791 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2016-09-29 22:19:28,824 WARN org.apache.hadoop.mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+2016-09-29 22:19:28,828 WARN org.apache.hadoop.mapred.JobClient: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-09-29 22:19:28,836 INFO org.apache.hadoop.mapreduce.lib.input.FileInputFormat: Total input paths to process : 1
+2016-09-29 22:19:29,086 INFO org.apache.hadoop.mapred.JobClient: Running job: job_local11499674_0001
+2016-09-29 22:19:29,088 INFO org.apache.hadoop.mapred.LocalJobRunner: OutputCommitter set in config null
+2016-09-29 22:19:29,091 INFO org.apache.hadoop.mapred.LocalJobRunner: OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2016-09-29 22:19:29,100 INFO org.apache.hadoop.mapred.LocalJobRunner: Waiting for map tasks
+2016-09-29 22:19:29,100 INFO org.apache.hadoop.mapred.LocalJobRunner: Starting task: attempt_local11499674_0001_m_000000_0
+2016-09-29 22:19:29,112 WARN mapreduce.Counters: Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+2016-09-29 22:19:29,132 INFO org.apache.hadoop.util.ProcessTree: setsid exited with exit code 0
+2016-09-29 22:19:29,136 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@19202d69
+2016-09-29 22:19:29,143 INFO org.apache.hadoop.mapred.MapTask: Processing split: file:/home/training/workspace/BankTeller/input/sample.txt:0+1909
+2016-09-29 22:19:29,147 INFO org.apache.hadoop.mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+2016-09-29 22:19:29,149 INFO org.apache.hadoop.mapred.MapTask: io.sort.mb = 100
+2016-09-29 22:19:29,465 INFO org.apache.hadoop.mapred.MapTask: data buffer = 79691776/99614720
+2016-09-29 22:19:29,465 INFO org.apache.hadoop.mapred.MapTask: record buffer = 262144/327680
+2016-09-29 22:19:29,472 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2016-09-29 22:19:29,472 INFO org.apache.hadoop.mapred.MapTask: Starting flush of map output
+2016-09-29 22:19:29,484 INFO org.apache.hadoop.mapred.MapTask: Finished spill 0
+2016-09-29 22:19:29,485 INFO org.apache.hadoop.mapred.Task: Task:attempt_local11499674_0001_m_000000_0 is done. And is in the process of commiting
+2016-09-29 22:19:29,494 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2016-09-29 22:19:29,494 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local11499674_0001_m_000000_0' done.
+2016-09-29 22:19:29,495 INFO org.apache.hadoop.mapred.LocalJobRunner: Finishing task: attempt_local11499674_0001_m_000000_0
+2016-09-29 22:19:29,495 INFO org.apache.hadoop.mapred.LocalJobRunner: Map task executor complete.
+2016-09-29 22:19:29,497 WARN mapreduce.Counters: Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+2016-09-29 22:19:29,501 INFO org.apache.hadoop.mapred.Task:  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@1fc8efd1
+2016-09-29 22:19:29,502 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2016-09-29 22:19:29,506 INFO org.apache.hadoop.mapred.Merger: Merging 1 sorted segments
+2016-09-29 22:19:29,513 INFO org.apache.hadoop.mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 200 bytes
+2016-09-29 22:19:29,513 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2016-09-29 22:19:29,524 INFO org.apache.hadoop.mapred.Task: Task:attempt_local11499674_0001_r_000000_0 is done. And is in the process of commiting
+2016-09-29 22:19:29,525 INFO org.apache.hadoop.mapred.LocalJobRunner: 
+2016-09-29 22:19:29,525 INFO org.apache.hadoop.mapred.Task: Task attempt_local11499674_0001_r_000000_0 is allowed to commit now
+2016-09-29 22:19:29,526 INFO org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter: Saved output of task 'attempt_local11499674_0001_r_000000_0' to output
+2016-09-29 22:19:29,526 INFO org.apache.hadoop.mapred.LocalJobRunner: reduce > reduce
+2016-09-29 22:19:29,526 INFO org.apache.hadoop.mapred.Task: Task 'attempt_local11499674_0001_r_000000_0' done.
+2016-09-29 22:19:30,088 INFO org.apache.hadoop.mapred.JobClient:  map 100% reduce 100%
+2016-09-29 22:19:30,089 INFO org.apache.hadoop.mapred.JobClient: Job complete: job_local11499674_0001
+2016-09-29 22:19:30,092 INFO org.apache.hadoop.mapred.JobClient: Counters: 20
+2016-09-29 22:19:30,093 INFO org.apache.hadoop.mapred.JobClient:   File System Counters
+2016-09-29 22:19:30,093 INFO org.apache.hadoop.mapred.JobClient:     FILE: Number of bytes read=4378
+2016-09-29 22:19:30,093 INFO org.apache.hadoop.mapred.JobClient:     FILE: Number of bytes written=177254
+2016-09-29 22:19:30,093 INFO org.apache.hadoop.mapred.JobClient:     FILE: Number of read operations=0
+2016-09-29 22:19:30,093 INFO org.apache.hadoop.mapred.JobClient:     FILE: Number of large read operations=0
+2016-09-29 22:19:30,093 INFO org.apache.hadoop.mapred.JobClient:     FILE: Number of write operations=0
+2016-09-29 22:19:30,093 INFO org.apache.hadoop.mapred.JobClient:   Map-Reduce Framework
+2016-09-29 22:19:30,093 INFO org.apache.hadoop.mapred.JobClient:     Map input records=18
+2016-09-29 22:19:30,094 INFO org.apache.hadoop.mapred.JobClient:     Map output records=18
+2016-09-29 22:19:30,094 INFO org.apache.hadoop.mapred.JobClient:     Map output bytes=162
+2016-09-29 22:19:30,094 INFO org.apache.hadoop.mapred.JobClient:     Input split bytes=122
+2016-09-29 22:19:30,094 INFO org.apache.hadoop.mapred.JobClient:     Combine input records=0
+2016-09-29 22:19:30,094 INFO org.apache.hadoop.mapred.JobClient:     Combine output records=0
+2016-09-29 22:19:30,094 INFO org.apache.hadoop.mapred.JobClient:     Reduce input groups=4
+2016-09-29 22:19:30,094 INFO org.apache.hadoop.mapred.JobClient:     Reduce shuffle bytes=0
+2016-09-29 22:19:30,094 INFO org.apache.hadoop.mapred.JobClient:     Reduce input records=18
+2016-09-29 22:19:30,095 INFO org.apache.hadoop.mapred.JobClient:     Reduce output records=4
+2016-09-29 22:19:30,095 INFO org.apache.hadoop.mapred.JobClient:     Spilled Records=36
+2016-09-29 22:19:30,095 INFO org.apache.hadoop.mapred.JobClient:     CPU time spent (ms)=0
+2016-09-29 22:19:30,095 INFO org.apache.hadoop.mapred.JobClient:     Physical memory (bytes) snapshot=0
+2016-09-29 22:19:30,095 INFO org.apache.hadoop.mapred.JobClient:     Virtual memory (bytes) snapshot=0
+2016-09-29 22:19:30,095 INFO org.apache.hadoop.mapred.JobClient:     Total committed heap usage (bytes)=310509568

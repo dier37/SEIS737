@@ -1,0 +1,1 @@
+IBM DB2 for Linux, UNIX and Windows supports dynamic in-memory, in-memory columnar processing parallel, vector processing, actionable compression, and data-skipping technologies, collectively called IBM BLU Acceleration by IBM. Released in June 2013.

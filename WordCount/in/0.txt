@@ -1,0 +1,1 @@
+Hybrid DBMS that combines an in-memory database with a conventional disk-resident database in a single unified engine. Supports full ACID properties, standard connectivity interfaces such as JDBC and ODBC [fully supported] as well as interoperability.
